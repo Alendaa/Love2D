@@ -2,7 +2,6 @@ local module = {}
 module.__index = module
 
 ---@class Part
----@field Type string Type of the part.
 ---@field Position Vector2 Part position.
 
 ---@class Damage: Part
@@ -11,14 +10,9 @@ module.__index = module
 ---@return Part | Damage
 function module.new(damage)
     ---@type Part | Damage
-    local part = {
-        Type = type,
-        Position = Vector2.new()
-    }
+    local part = {}
 
-    if type and type == "Damage" then
-        part.Damage = damage or 25
-    end
+    part.Damage = damage or 25
 
     part.Position = Vector2.new()
 
