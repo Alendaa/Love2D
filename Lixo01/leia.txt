@@ -1,0 +1,1 @@
+Esse "projeto" foi o primeiro contato que tive com a criação de jogos dessa forma, eu apenas uso uma game engine e dessa vez quis me desafiar e fazer sem uma game engine.
